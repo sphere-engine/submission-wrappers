@@ -1,0 +1,4 @@
+#!/bin/bash
+
+SE_ACCESS_TOKEN="<access_token>"
+SE_ENDPOINT_HASH="<endpoint_hash>"
