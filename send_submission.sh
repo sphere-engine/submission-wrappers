@@ -36,5 +36,5 @@ curl \
     -F "problemId=$PROBLEM_ID" \
     -F "compilerId=$COMPILER_ID" \
     -F "compilerVersionId=$COMPILER_VERSION_ID" \
-    -F "source=@$TARGET_DIR/source.tar.gz" \
+    -F "source=@$TARGET_DIR/$LANG.tar.gz" \
     "https://$SE_ENDPOINT_HASH.problems.sphere-engine.com/api/v4/submissions?access_token=$SE_ACCESS_TOKEN"
